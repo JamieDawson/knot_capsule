@@ -1,0 +1,14 @@
+layout-macro-def (knot-details){
+	params{
+		param (knot_here){
+			type (Knot_struct)
+			min (Required)
+			max (One)
+		}
+	}
+  content{
+    paragraph{
+      value("clicked it!!!")
+    }
+  }
+}

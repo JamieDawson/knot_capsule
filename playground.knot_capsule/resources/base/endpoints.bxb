@@ -1,0 +1,10 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Show_knots) {
+      accepted-inputs ()
+      local-endpoint ("show_knots.js")
+    }
+
+
+  }
+}

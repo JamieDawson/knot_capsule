@@ -1,0 +1,17 @@
+structure (Knot_struct) {
+  description (info returned from the js json)
+ 
+  property (name_of_knot) {
+    type (Knot_name)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+
+
+  property (click_text_here){
+    type (Knot_name)
+    min (Optional) max (Many)
+    visibility (Private)
+  }
+
+}

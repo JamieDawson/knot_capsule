@@ -1,0 +1,16 @@
+layout-macro-def (knot-summary){
+	params{
+		param (knot_here){
+			type (Knot_struct)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content{
+		paragraph{
+			value("#{value(knot_here.name_of_knot)}")
+		}
+	}
+	
+}

@@ -1,0 +1,11 @@
+action (Show_knots) {
+  type(Search)
+  description (info sent to the js)
+  collect {
+    input (knot_name) {
+      type (Knot_name)
+      min (Optional) max (One)
+    }
+  }
+  output (Knot_struct) //make sure json return something from js
+}

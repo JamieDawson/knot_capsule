@@ -1,0 +1,24 @@
+result-view{
+	match: Knot_struct (this)
+	
+	render{
+		if (size(this) > 1){
+			list-of(this){
+				where-each(knot_here){
+					layout-macro(knot-summary){
+						param(knot_here){
+							expression(knot_here)
+						}
+					}
+				}
+			}
+		} else-if (size(this) == 1){
+        layout-macro (knot-details){
+          param (knot_here){
+            expression (this)
+          }
+        }
+    }
+		
+	}
+}
