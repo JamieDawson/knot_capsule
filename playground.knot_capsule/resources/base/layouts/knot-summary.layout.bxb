@@ -10,17 +10,19 @@ layout-macro-def (knot-summary){
 	content{
 		image-card{
 			image-url("#{value(knot_here.image_URL)}")
+			image-object-fit (Contain)
+			aspect-ratio(4:3)
 			column-size (2)
 			title-area{
 				slot1{
 					text{
-						value("test one!")
+						value("#{value(knot_here.name_of_knot)}")
 					}
 				}
 				slot2{
 					single-line{
 						text{
-							value("test 1")
+							value()
 						}
 
 					}

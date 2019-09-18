@@ -6,9 +6,27 @@ layout-macro-def (knot-details){
 			max (One)
 		}
 	}
-  content{
-    paragraph{
-      value("clicked it!!!")
-    }
-  }
+	content{
+		section{
+			content{
+				paragraph{
+					value("Found the details page!")
+				}
+				paragraph{
+					value("#{value(knot_here.images.url)}")
+				}
+				for-each (knot_here.images.url){
+					as(url){
+						image{
+							aspect-ratio(4:3)
+							url("#{value(knot_here.images.url)}")
+						}
+						paragraph{
+							value("description text here!")
+						}
+					}
+				}
+			}
+		}
+	}
 }

@@ -8,11 +8,17 @@ structure (Knot_struct) {
     visibility (Private)
   }
 
-  //Images
+  //Single Image
   property (image_URL) {
     type (viv.core.Text)
     min (Optional) max (One)
     visibility (Private)
+  }
+
+//Mulitple images.
+  property (images) {
+    type (AdditionalImages)
+    min (Optional) max (Many)
   }
 
   //basic text for testing
