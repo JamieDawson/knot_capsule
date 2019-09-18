@@ -9,23 +9,26 @@ layout-macro-def (knot-details){
 	content{
 		section{
 			content{
-				paragraph{
-					value("Found the details page!")
-				}
-				paragraph{
-					value("#{value(knot_here.images.url)}")
-				}
-				for-each (knot_here.images.url){
-					as(url){
-						image{
-							aspect-ratio(4:3)
-							url("#{value(knot_here.images.url)}")
-						}
+
+
+				// for-each (knot_here.mult_pic){
+				// 	as(pic){
+				// 		image{
+				// 			aspect-ratio(4:3)
+				// 			object-fit (Contain)
+				// 			url("#{value(pic.url)}") //Not showing picture.
+				// 		}
+				// 	}
+				// }
+
+				for-each (knot_here.mult_des){
+					as(des){
 						paragraph{
-							value("description text here!")
+							value("#{value(des.url)}")
 						}
 					}
 				}
+
 			}
 		}
 	}

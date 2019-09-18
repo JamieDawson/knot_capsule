@@ -8,15 +8,22 @@ structure (Knot_struct) {
     visibility (Private)
   }
 
+//Descriptions.
+  property (mult_des) {
+    type (AdditionalImages)
+    min (Optional) max (Many)
+    visibility (Private)
+  }
+
   //Single Image
-  property (image_URL) {
+  property (main_image) {
     type (viv.core.Text)
-    min (Optional) max (One)
+    min (Optional) max (Many)
     visibility (Private)
   }
 
 //Mulitple images.
-  property (images) {
+  property (mult_pic) {
     type (AdditionalImages)
     min (Optional) max (Many)
   }

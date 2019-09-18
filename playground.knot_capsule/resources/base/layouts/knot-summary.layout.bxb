@@ -9,7 +9,7 @@ layout-macro-def (knot-summary){
 	
 	content{
 		image-card{
-			image-url("#{value(knot_here.image_URL)}")
+			image-url("#{value(knot_here.main_image)}")
 			image-object-fit (Contain)
 			aspect-ratio(4:3)
 			column-size (2)
