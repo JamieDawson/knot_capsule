@@ -8,9 +8,16 @@ layout-macro-def (knot-summary){
 	}
 	
 	content{
-		paragraph{
-			value("#{value(knot_here.name_of_knot)}")
+		// paragraph{
+		// 	value("#{value(knot_here.name_of_knot)}")
+		// }
+		
+		image{
+			object-fit (Contain)
+			url("#{value(knot_here.image_URL)}")
 		}
+		
+		
 	}
 	
 }

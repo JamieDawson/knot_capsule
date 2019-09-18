@@ -1,13 +1,21 @@
 structure (Knot_struct) {
   description (info returned from the js json)
  
+ //the name of the knot.
   property (name_of_knot) {
     type (Knot_name)
     min (Optional) max (One)
     visibility (Private)
   }
 
+  //Images
+  property (image_URL) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
 
+  //basic text for testing
   property (click_text_here){
     type (Knot_name)
     min (Optional) max (Many)
