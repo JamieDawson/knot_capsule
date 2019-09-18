@@ -10,7 +10,7 @@ structure (Knot_struct) {
 
   //Images
   property (image_URL) {
-    type (image.Image)
+    type (viv.core.Text)
     min (Optional) max (One)
     visibility (Private)
   }

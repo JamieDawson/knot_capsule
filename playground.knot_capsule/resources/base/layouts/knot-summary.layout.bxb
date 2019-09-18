@@ -8,16 +8,26 @@ layout-macro-def (knot-summary){
 	}
 	
 	content{
-		// paragraph{
-		// 	value("#{value(knot_here.name_of_knot)}")
-		// }
-		
-		image{
-			object-fit (Contain)
-			url("#{value(knot_here.image_URL)}")
+		image-card{
+			image-url("#{value(knot_here.image_URL)}")
+			column-size (2)
+			title-area{
+				slot1{
+					text{
+						value("test one!")
+					}
+				}
+				slot2{
+					single-line{
+						text{
+							value("test 1")
+						}
+
+					}
+				}
+			}
+	
 		}
-		
-		
 	}
 	
 }
