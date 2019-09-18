@@ -24,7 +24,7 @@ layout-macro-def (knot-details){
 				for-each (knot_here.mult_des){
 					as(des){
 						paragraph{
-							value("#{value(des.url)}")
+							value("#{value(des.text)}")
 						}
 					}
 				}
