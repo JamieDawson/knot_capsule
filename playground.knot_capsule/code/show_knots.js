@@ -15,6 +15,11 @@ module.exports.function = function show_knots () {
       name_of_knot: "Double Overhand Stopper",
       main_image: 'images/double_overhand_stopper_5.jpg',
       mult_pic: [{url:'/images/double_overhand_stopper_1.jpg', text:'Lay down the rope in the shape of a U.'},{url:'/images/double_overhand_stopper_2.jpg', text:'Create a loop by laying the rope on top of itself.'},{url:'/images/double_overhand_stopper_3.jpg', text:'Pass the end through it.'},{url:'/images/double_overhand_stopper_4.jpg', text:'Pass the end through it again.'},{url:'/images/double_overhand_stopper_5.jpg', text:'Pull both ends til you have a knot!'},]
+    },
+    {
+      name_of_knot: "Slip Knot",
+      main_image: 'images/slip_knot_6.jpg',
+      mult_pic: [{url:'/images/slip_knot_1.jpg', text:'Lay down the rope.'},{url:'/images/slip_knot_2.jpg', text:'Create a loop in the shape the number nine.'},{url:'/images/slip_knot_3.jpg', text:'Take the end and curve it in the opposite direction'},{url:'/images/slip_knot_4.jpg', text:'Place the curved part of the rope inside the loop.'},{url:'/images/slip_knot_6.jpg', text:'Pull pull the rope while holding the end!'},]
     }
   ]
 }
