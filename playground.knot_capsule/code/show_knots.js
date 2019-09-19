@@ -9,10 +9,12 @@ module.exports.function = function show_knots () {
     {
       name_of_knot: "Figure Eight",
       main_image: 'images/figure_eight_4.jpg',
-      mult_pic: [{url:'/images/figure_eight_1.jpg', text:'Lay down the rope in the shape of an S.'},{url:'/images/figure_eight_2.jpg', text:'Lay out your rope.'},{url:'/images/figure_eight_3.jpg', text:'Lay out your rope.'},{url:'/images/figure_eight_4.jpg', text:'Lay out your rope.'},]
+      mult_pic: [{url:'/images/figure_eight_1.jpg', text:'Lay down the rope in the shape of an S.'},{url:'/images/figure_eight_2.jpg', text:'Pass the end over itself to create a loop'},{url:'/images/figure_eight_3.jpg', text:'Wrap the end of the rope underneath itself.'},{url:'/images/figure_eight_4.jpg', text:'Pass the end throgh the loop and pull.'},]
     },
     {
-      name_of_knot: "Testing this 3",
+      name_of_knot: "Double Overhand Stopper",
+      main_image: 'images/double_overhand_stopper_5.jpg',
+      mult_pic: [{url:'/images/double_overhand_stopper_1.jpg', text:'Lay down the rope in the shape of a U.'},{url:'/images/double_overhand_stopper_2.jpg', text:'Create a loop by laying the rope on top of itself.'},{url:'/images/double_overhand_stopper_3.jpg', text:'Pass the end through it.'},{url:'/images/double_overhand_stopper_4.jpg', text:'Pass the end through it again.'},{url:'/images/double_overhand_stopper_5.jpg', text:'Pull both ends til you have a knot!'},]
     }
   ]
 }
