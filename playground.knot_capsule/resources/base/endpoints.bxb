@@ -6,6 +6,10 @@ endpoints {
       local-endpoint ("show_knots.js")
     }
  
+    action-endpoint (Single_knot){
+      accepted-inputs (knot_name)
+      local-endpoint ("single_knot.js")
+    }
 
     }
   }

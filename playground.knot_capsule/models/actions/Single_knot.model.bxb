@@ -1,0 +1,11 @@
+action (Single_knot) {
+  type(Search)
+  description (Deals when we have a single knot.)
+  collect {
+    input (knot_name) {
+      type (Knot_name)
+      min (Optional) max (One)
+    }
+  }
+  output (Knot_struct)
+}
