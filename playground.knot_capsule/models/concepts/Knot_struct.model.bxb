@@ -9,15 +9,11 @@ structure (Knot_struct) {
   }
 
 //Descriptions.
-property (mult_des) {
-   type (AdditionalImages)
-   min (Optional) max (Many)
-   visibility (Private)
- }
-
-
-
-
+// property (mult_des) {
+//    type (AdditionalImages)
+//    min (Optional) max (Many)
+//    visibility (Private)
+//  }
 
   //Single Image
   property (main_image) {
@@ -32,11 +28,5 @@ property (mult_des) {
     min (Optional) max (Many)
   }
 
-  //basic text for testing
-  property (click_text_here){
-    type (Knot_name)
-    min (Optional) max (Many)
-    visibility (Private)
-  }
 
 }

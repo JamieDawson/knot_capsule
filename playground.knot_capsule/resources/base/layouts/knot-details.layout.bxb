@@ -32,7 +32,9 @@ layout-macro-def (knot-details){
 				for-each (knot_here.mult_pic){
                   as(pic){
                       image{
-                          aspect-ratio(4:3)
+                          aspect-ratio(1:1)
+													object-fit (Contain)
+													lightbox-enabled (false)
                           url("#{value(pic.url)}") //Not showing picture.
                       }
                       paragraph{
