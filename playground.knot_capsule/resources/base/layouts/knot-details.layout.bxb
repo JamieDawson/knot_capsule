@@ -9,39 +9,19 @@ layout-macro-def (knot-details){
 	content{
 		section{
 			content{
-				
-				
-				// for-each (knot_here.mult_pic){
-				// 	as(pic){
-				// 		image{
-				// 			aspect-ratio(4:3)
-				// 			object-fit (Contain)
-				// 			url("#{value(pic.url)}") //Not showing picture.
-				// 		}
-				// 	}
-				// }
-				
-				// for-each (knot_here.mult_des){
-				// 	as(des){
-				// 		paragraph{
-				// 			value("#{value(des.text)}")
-				// 		}
-				// 	}
-				// }
-				
 				for-each (knot_here.mult_pic){
-                  as(pic){
-                      image{
-                          aspect-ratio(1:1)
-													object-fit (Contain)
-													lightbox-enabled (false)
-                          url("#{value(pic.url)}") //Not showing picture.
-                      }
-                      paragraph{
-                          value("#{value(pic.text)}")
-                      }
-                  }
-              }
+					as(pic){
+						image{
+							aspect-ratio(4:3)
+							object-fit (Contain)
+							lightbox-enabled (false)
+							url("#{value(pic.url)}") //Not showing picture.
+						}
+						paragraph{
+							value("#{value(pic.text)}")
+						}
+					}
+				}
 			}
 		}
 	}

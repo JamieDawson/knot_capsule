@@ -7,8 +7,9 @@ module.exports.function = function show_knots () {
       //mult_des: [{url:"www.url.com", text:'says the first words'}, {url:"www.url.com/2", text:'Saying the second words'}]
     },
     {
-      name_of_knot: "testing this 2",
-      main_image: 'images/bowline_1.jpg',
+      name_of_knot: "Figure Eight",
+      main_image: 'images/figure_eight_4.jpg',
+      mult_pic: [{url:'/images/figure_eight_1.jpg', text:'Lay down the rope in the shape of an S.'},{url:'/images/figure_eight_2.jpg', text:'Lay out your rope.'},{url:'/images/figure_eight_3.jpg', text:'Lay out your rope.'},{url:'/images/figure_eight_4.jpg', text:'Lay out your rope.'},]
     },
     {
       name_of_knot: "Testing this 3",
