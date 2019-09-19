@@ -1,6 +1,15 @@
 result-view{
 	match: Knot_struct (this)
 	
+	conversation-drivers{
+		if (size(this) == 1){
+			conversation-driver{
+				template(back) //add "back" button when a tournament is selected.
+			}
+		}
+	}
+	
+	
 	render{
 		if (size(this) > 1){
 			list-of(this){
@@ -13,12 +22,12 @@ result-view{
 				}
 			}
 		} else-if (size(this) == 1){
-        layout-macro (knot-details){
-          param (knot_here){
-            expression (this)
-          }
-        }
-    }
+			layout-macro (knot-details){
+				param (knot_here){
+					expression (this)
+				}
+			}
+		}
 		
 	}
 }
