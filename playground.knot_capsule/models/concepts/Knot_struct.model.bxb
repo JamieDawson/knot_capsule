@@ -9,11 +9,15 @@ structure (Knot_struct) {
   }
 
 //Descriptions.
-  property (mult_des) {
-    type (AdditionalImages)
-    min (Optional) max (Many)
-    visibility (Private)
-  }
+property (mult_des) {
+   type (AdditionalImages)
+   min (Optional) max (Many)
+   visibility (Private)
+ }
+
+
+
+
 
   //Single Image
   property (main_image) {

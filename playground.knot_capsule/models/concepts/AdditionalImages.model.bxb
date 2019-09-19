@@ -1,3 +1,12 @@
 structure (AdditionalImages) {
-  extends (viv.core.BaseImage)
+ property (url){
+ type (viv.core.Text)
+ min (Optional) max (One)
+ visibility (Private)
+ }
+ property (text){
+ type (viv.core.Text)
+ min (Optional) max (One)
+ visibility (Private)
+ }
 }
