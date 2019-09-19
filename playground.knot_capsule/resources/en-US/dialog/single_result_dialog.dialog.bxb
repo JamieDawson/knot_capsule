@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: Single_knot (this)
+  template("Here is how you make a #{value(name_of_knot)}")
+}

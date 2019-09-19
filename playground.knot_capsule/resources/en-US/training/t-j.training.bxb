@@ -3,3 +3,8 @@ train (t-j3onnzi304yxpy0tr3wip419k) {
   plan (Y2BmUC7ISaxML8ovzUvRy87LL4lPTiwoLs1J1fMGcYpLikqTS3ArCs7MS89JjQeJMSjiNSkvMTeVgYmBEYgZgCQjAwhA+QA=)
   last-modified (1568927556227)
 }
+train (t-jm6f2v7bcpnl5w6t1fbpye62g) {
+  utterance ("[g:Single_knot] (bowline)[v:Knot_name]")
+  plan (Y2BmUC7ISaxML8ovzUvRy87LL4lPTiwoLs1J1fMGcYpLikqTS3ArCs7MS89JjQeJMSjiNSkvMTeVgYmBEYgZgCQjAwhA+QA=)
+  last-modified (1568928627187)
+}
