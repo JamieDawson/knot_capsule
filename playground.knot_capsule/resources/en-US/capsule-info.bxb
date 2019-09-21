@@ -4,6 +4,10 @@ capsule-info {
   icon-asset (/images/icons/rope.png)
   description ("Beginner Rope lets users learn how to make beginner knots.")
   dispatch-name (Beginner Rope)
+  search-keywords {
+    keyword (knots)
+    keyword (rope)
+  }
   //website-url (https://example.com/) //Do not need
   //terms-url (https://example.com/terms-of-use/) //Do not need.
 }
