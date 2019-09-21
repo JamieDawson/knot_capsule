@@ -1,5 +1,9 @@
 var console = require('console')
 
+//export show_knots.js
+//use it to compare the file.
+//it's a better practice.
+
 module.exports.function = function single_knot(knot_name) {
 
   knot_name = knot_name.toLowerCase(); //lowercase the string.
