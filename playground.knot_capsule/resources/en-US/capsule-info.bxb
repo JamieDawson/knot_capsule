@@ -1,8 +1,9 @@
 capsule-info {
   display-name (Knot Capsule)
   developer-name (Jamie Dawson)
-  icon-asset (icon.png)
-  description ("__DESCRIPTION__")
-  website-url (https://example.com/)
-  terms-url (https://example.com/terms-of-use/)
+  icon-asset (/images/icons/rope.png)
+  description ("Beginner Rope lets users learn how to make beginner knots.")
+  dispatch-name (Beginner Rope)
+  //website-url (https://example.com/) //Do not need
+  //terms-url (https://example.com/terms-of-use/) //Do not need.
 }

@@ -1,4 +1,4 @@
-module.exports.function = function show_knots () {
+module.exports.function = function show_knots() {
   return [
     {
       name_of_knot: "Bowline Knot",
@@ -30,6 +30,6 @@ module.exports.function = function show_knots () {
       name_of_knot: "Cow Hitch",
       main_image: 'images/cow_hitch_4.jpg',
       mult_pic: [{url:'/images/cow_hitch_1.jpg', text:'Wrap rope over the bar.'},{url:'/images/cow_hitch_2.jpg', text:'Wrap end of rope underneath the back of the rope.'},{url:'/images/cow_hitch_3.jpg', text:'Wrap end of rope over the bar again.'},{url:'/images/cow_hitch_4.jpg', text:'Wrap end of rope through the loop and pull.'}]
-    },
+    }
   ]
 }

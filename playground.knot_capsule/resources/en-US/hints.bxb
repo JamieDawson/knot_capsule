@@ -1,5 +1,7 @@
 hints {
   uncategorized {
-    utterance (__ALIGNED_UTTERANCE__)
+    hint ("With Beginner Rope, show me some knots")
+    hint ("In Beginner Rope, I would like the bowline knot")
+    hint ("Ask Beginner Rope to display some knots")
   }
 }

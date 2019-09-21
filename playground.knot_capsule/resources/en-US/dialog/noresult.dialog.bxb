@@ -1,4 +1,4 @@
 dialog (NoResult) {
   match: Single_knot
-  template("I could not find the name of that Knot!")
+  template("Please give a valid knot name!")
 }

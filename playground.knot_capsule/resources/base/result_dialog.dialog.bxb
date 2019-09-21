@@ -1,6 +1,5 @@
 dialog (Result) {
   match: Show_knots (this)
-
     template("Here are some knots to try!")
   
 }
