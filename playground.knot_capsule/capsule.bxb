@@ -1,5 +1,5 @@
 capsule {
-	id (jamie_dawson.beginner_rope)
+	id (playground.beginner_rope)
 	version (0.1.0)
 	format (3)
 	targets {

@@ -8,7 +8,7 @@ module.exports.function = function single_knot(knot_name) {
 
   knot_name = knot_name.toLowerCase(); //lowercase the string.
 
-  if (knot_name == "bowline knot" || knot_name == "bowline" || knot_name == "bowline not") {
+  if (knot_name == "bowline knot" || knot_name == "bowline" || knot_name == "bowline not" || knot_name == "owen" ) {
     return [
       {
         name_of_knot: "Bowline Knot",
@@ -17,7 +17,7 @@ module.exports.function = function single_knot(knot_name) {
         //mult_des: [{url:"www.url.com", text:'says the first words'}, {url:"www.url.com/2", text:'Saying the second words'}]
       }]
   }
-  else if (knot_name == "figure eight") {
+  else if (knot_name == "figure eight" || knot_name == "figure 8") { //ASR passes
     return [{
       name_of_knot: "Figure Eight",
       main_image: 'images/figure_eight_4.jpg',
@@ -25,7 +25,7 @@ module.exports.function = function single_knot(knot_name) {
     }]
   }
 
-  else if (knot_name == "double overhand stopper") {
+  else if (knot_name == "double overhand stopper") { //ASR passes
     return [{
       name_of_knot: "Double Overhand Stopper",
       main_image: 'images/double_overhand_stopper_5.jpg',
@@ -33,7 +33,7 @@ module.exports.function = function single_knot(knot_name) {
     }]
   }
 
-  else if (knot_name == "slip knot" || knot_name == "slip not" || knot_name == "slipknot") {
+  else if (knot_name == "slip knot" || knot_name == "slip not" || knot_name == "slipknot") { //ASR passes
     return [{
       name_of_knot: "Slip Knot",
       main_image: 'images/slip_knot_6.jpg',
@@ -41,7 +41,7 @@ module.exports.function = function single_knot(knot_name) {
     }]
   }
 
-  else if (knot_name == "clove hitch") {
+  else if (knot_name == "clove hitch" || knot_name == "close hitch") { //ASR is hacky, but passes.
     return [{
       name_of_knot: "Clove Hitch",
       main_image: 'images/clove_hitch_6.jpg',
@@ -49,7 +49,7 @@ module.exports.function = function single_knot(knot_name) {
     }]
   }
 
-  else if (knot_name == "cow hitch") {
+  else if (knot_name == "cow hitch") { //ASR passes
     return [{
       name_of_knot: "Cow Hitch",
       main_image: 'images/cow_hitch_4.jpg',
