@@ -1,4 +1,7 @@
 dialog (NoResult) {
   match: Single_knot
-  template("Please give a valid knot name!")
+  template("Please request a Slip Knot, Figure Eight, Double Overhand Stopper, Clove Hitch, or Cow Hitch.")
+
+
+
 }

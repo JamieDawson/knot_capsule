@@ -1,5 +1,5 @@
 train (t-cgvlcnjf201a485wbkb5xrm39) {
-  utterance ("[g:Single_knot] show me the (bowline knot)[v:Knot_name]")
-  plan (Y2BmUC7ISaxML8ovzUvRy87LL4lPTiwoLs1J1fMGcYpLikqTS3ArCs7MS89JjQeJMSjiNSkvMTeVgYmBEYgZgCQjAwhA+QA=)
-  last-modified (1569106031043)
+  utterance ("[g:Single_knot] show me the (figure 8)[v:Knot_name]")
+  plan (Y2BmUCnISaxML8ovzUvRS0pNz8zLSy2KL8ovSNXzzssviS8uKSpNLsGjKjgzLz0nNT4bqJhBCb9ZeYm5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1571334462188)
 }

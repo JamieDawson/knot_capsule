@@ -1,4 +1,4 @@
 dialog (Progress) {
   match: Show_knots
-  template("Looking up Knots for you")
+  template("Looking up rope suggestions")
 }

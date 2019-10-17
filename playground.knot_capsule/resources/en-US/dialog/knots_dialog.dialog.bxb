@@ -1,4 +1,4 @@
 dialog (Result) {
   match: Show_knots
-  template("Select a Knot!")
+  template("Select the rope you would like to try!")
 }

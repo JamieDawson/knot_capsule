@@ -5,7 +5,6 @@ capsule-info {
   description ("Beginner Rope lets users learn how to make beginner knots.")
   dispatch-name (Beginner Rope)
   search-keywords {
-    keyword (knots)
     keyword (rope)
   }
   //website-url (https://example.com/) //Do not need

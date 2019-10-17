@@ -1,5 +1,5 @@
 train (t-4rmdls6ozfrvmloywmehbv7i1) {
-  utterance ([g:Show_knots] show me the knots i can make)
-  plan (Y2BiUC7ISaxML8ovzUvRy87LL4lPTiwoLs1J1fMGcYpLikqTSxiUcCkKzsgvjweJFDMwAiEDFANJAA==)
-  last-modified (1569105944100)
+  utterance ([g:Show_knots] show me what I can do with rope)
+  plan (Y2BiUCnISaxML8ovzUvRS0pNz8zLSy2KL8ovSNXzzssviS8uKSpNLmFQxqkqOCO/PD4bqLSYgREIGaAYSAIA)
+  last-modified (1571334737920)
 }

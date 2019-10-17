@@ -4,12 +4,12 @@ train (t-uhgi1skm9nmqtw73f9funt0bi) {
   last-modified (1569106245379)
 }
 train (t-ulp0tyefq4ld05gpovjzte0bo) {
-  utterance ([g:Show_knots] i want to see some knots)
-  plan (Y2BiUC7ISaxML8ovzUvRy87LL4lPTiwoLs1J1fMGcYpLikqTSxiUcCkKzsgvjweJFDMwAiEDFANJAA==)
-  last-modified (1569105840203)
+  utterance ([g:Show_knots] i want to see some rope ideas)
+  plan (Y2BiUCnISaxML8ovzUvRS0pNz8zLSy2KL8ovSNXzzssviS8uKSpNLmFQxqkqOCO/PD4bqLSYgREIGaAYSAIA)
+  last-modified (1571334317670)
 }
 train (t-uvms9icez0i03fcppjssj65pk) {
-  utterance ([g:Show_knots] get me some knots)
-  plan (Y2BiUC7ISaxML8ovzUvRy87LL4lPTiwoLs1J1fMGcYpLikqTSxiUcCkKzsgvjweJFDMwAiEDFANJAA==)
-  last-modified (1569105863850)
+  utterance ([g:Show_knots] get me some rope ideas)
+  plan (Y2BiUCnISaxML8ovzUvRS0pNz8zLSy2KL8ovSNXzzssviS8uKSpNLmFQxqkqOCO/PD4bqLSYgREIGaAYSAIA)
+  last-modified (1571334326840)
 }
